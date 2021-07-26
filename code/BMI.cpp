@@ -18,7 +18,7 @@ int main() {
     bmi = weight/height/height;
 
     // 表示
-    cout << "Your BMI: " << bmi << endl;
+    cout << "Your BMI is " << bmi << endl;
 
     if (bmi<18.5) {
         cout << "Too slim." << endl;
